@@ -9,7 +9,7 @@ Include the jQuery library and the plugin script in your HTML file:
 
 <!-- Javascript -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="jquery-custom-checkbox-plugin.js"></script>
+<script src="checkbox.js"></script>
 ```
 
 ## Usage
