@@ -18,8 +18,8 @@ To create a custom checkbox menu, use the CBCreate function:
 $(".checkbox-container").CBCreate(cbMenu, callbackFunction);
 ```
 
-`cbMenu`: An object containing the menu options and their properties.
-`callbackFunction`: A callback function to handle checkbox actions.
+### `cbMenu`: An object containing the menu options and their properties.
+### `callbackFunction`: A callback function to handle checkbox actions.
 
 Example:
 ```javascript
@@ -37,10 +37,10 @@ $(".checkbox-container").CBCreate(cbMenu, handleCheckboxAction);
 ```
 
 ## FUNCTIONS
-`CBSetCheck`: Check all checkboxes.
-`CBSetUncheck`: Uncheck all checkboxes.
-`CBOpenOptions`: Open the options menu.
-`CBCloseOptions`: Close the options menu.
+### `CBSetCheck`: Check all checkboxes.
+### `CBSetUncheck`: Uncheck all checkboxes.
+### `CBOpenOptions`: Open the options menu.
+### `CBCloseOptions`: Close the options menu.
 
 Example:
 ```javascript
