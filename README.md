@@ -45,7 +45,7 @@ $(".cb-options").CBOpenOptions(); // Open the options menu
 ```
 
 ## UI Preview
-Take a look at `preview.jpg`
+Take a look at `preview.png`
 
 ## Styling
 The plugin generates HTML structure for the checkbox menu. You can style the elements using CSS as needed.
