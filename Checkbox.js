@@ -54,6 +54,24 @@
 		return this;
 	};
 
+	$.fn.CBOnChecked = function (callback) {
+		$(document).on("change",".cb-all",function () {
+			if($(this).prop("checked"))
+			{
+				callback();
+			}
+		});
+	};
+
+	$.fn.CBOnUnchecked = function (callback) {
+		$(document).on("change",".cb-all",function () {
+			if(!$(this).prop("checked"))
+			{
+				callback();
+			}
+		});
+	};
+
 	$.fn.CBSetCheck = function (trigger = false) {
 		if(trigger)
 		{
