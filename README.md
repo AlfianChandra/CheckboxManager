@@ -4,6 +4,10 @@ This jQuery plugin allows you to create custom checkbox menus with specified opt
 ## Installation
 Include the jQuery library and the plugin script in your HTML file:
 ```html
+<!-- CSS -->
+<link rel='stylesheet' href='checkbox.css'/>
+
+<!-- Javascript -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="jquery-custom-checkbox-plugin.js"></script>
 ```
