@@ -3,7 +3,7 @@ This jQuery plugin allows you to create custom checkbox menus with specified opt
 
 ## Installation
 Include the jQuery library and the plugin script in your HTML file:
-```javascript
+```html
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="jquery-custom-checkbox-plugin.js"></script>
 ```
@@ -43,6 +43,9 @@ Example:
 $(".checkbox-container").CBSetCheck(true); // Check all checkboxes and trigger change event
 $(".cb-options").CBOpenOptions(); // Open the options menu
 ```
+
+## UI Preview
+Take a look at `preview.jpg`
 
 ## Styling
 The plugin generates HTML structure for the checkbox menu. You can style the elements using CSS as needed.
